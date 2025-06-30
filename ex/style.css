@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(255, 255, 255);
+} .titulo{
+    font-size: 30px;
+
+} .linha{
+     font-size: 2px;
+     color: rgb(128, 128, 128);
+} #subtitulo1{
+    font-family: Arial;
+    color:  #3498db;
+    font-size: 30px;
+
+} #subtitulo2{
+    font-family: bold, Arial;
+    font-size: 30px;
+    color: green;
+} #subtitulo3{
+    font-family: italic, Arial;
+    font-size: 30px;
+    color: red;
+} #subtitulo4{
+     text-decoration: underline;
+     font-family: Arial;
+     font-size: 30px;
+     color: red
+}
