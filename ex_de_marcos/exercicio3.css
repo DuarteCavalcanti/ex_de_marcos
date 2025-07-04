@@ -1,0 +1,72 @@
+.h1 {
+    color: #00008b;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.linha{
+     font-size: 2px;
+    color: rgb(128, 128, 128);
+}
+
+table {
+    border-collapse: 1px;
+    width: 1000px;
+    margin: 20;
+    border: 1px solid #ffffff;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 6px 10px;
+    text-align: center;
+}
+
+table tr:first-child th {
+    background-color: #e0e0e0;
+    font-weight: bold;
+    color: #747474;
+}
+
+.header-empty {
+    background-color: #e0e0e0;
+    font-weight: bold;
+    color: #696969;
+}
+
+table tr:nth-child(2) th {
+    background-color: #e0e0e0;
+    font-style: italic;
+    font-weight: bold;
+    color: #333;
+}
+
+.aluno-name {
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    text-align: left;
+}
+
+.cinza{
+    background-color: #919191;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    text-align: left;
+}
+
+tr:nth-child(odd):not(:first-child):not(:nth-child(2)) td:not(.aluno-name) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(even):not(:first-child):not(:nth-child(2)) td:not(.aluno-name) {
+    background-color: #919191;
+}
+
+td {
+    color: green;
+}
+
+.red-score {
+    color: red;
+}

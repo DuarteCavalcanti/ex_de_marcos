@@ -1,0 +1,13 @@
+.titulo{
+     color: blue;
+    font-size: 30px;
+} .linha{
+     font-size: 2px;
+    color: rgb(128, 128, 128);
+}.square-list{
+     list-style-type: square;
+} .verde{
+    color: green;
+} .marrom{
+    color: brown;
+}

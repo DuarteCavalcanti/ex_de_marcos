@@ -1,0 +1,11 @@
+.titulo{
+    color: blue;
+    font-size: 30px;
+} .linha{
+    font-size: 2px;
+    color: rgb(128, 128, 128);
+} .img{
+    width: 15px;
+    height: 25px;
+     margin-right: 10px;
+} 
